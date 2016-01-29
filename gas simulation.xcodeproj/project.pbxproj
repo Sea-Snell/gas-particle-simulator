@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		748F44A01C5BB51F00B64500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F449F1C5BB51F00B64500 /* AppDelegate.swift */; };
+		748F44A21C5BB51F00B64500 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44A11C5BB51F00B64500 /* GameScene.swift */; };
+		748F44A41C5BB51F00B64500 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 748F44A31C5BB51F00B64500 /* GameScene.sks */; };
+		748F44A61C5BB51F00B64500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F44A51C5BB51F00B64500 /* Assets.xcassets */; };
+		748F44A91C5BB51F00B64500 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F44A71C5BB51F00B64500 /* MainMenu.xib */; };
+		748F44B41C5BB51F00B64500 /* gas_simulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44B31C5BB51F00B64500 /* gas_simulationTests.swift */; };
+		748F44BF1C5BB51F00B64500 /* gas_simulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44BE1C5BB51F00B64500 /* gas_simulationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		748F44B01C5BB51F00B64500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 748F44941C5BB51F00B64500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748F449B1C5BB51F00B64500;
+			remoteInfo = "gas simulation";
+		};
+		748F44BB1C5BB51F00B64500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 748F44941C5BB51F00B64500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748F449B1C5BB51F00B64500;
+			remoteInfo = "gas simulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		748F449C1C5BB51F00B64500 /* gas simulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gas simulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748F449F1C5BB51F00B64500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		748F44A11C5BB51F00B64500 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		748F44A31C5BB51F00B64500 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		748F44A51C5BB51F00B64500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748F44A81C5BB51F00B64500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		748F44AA1C5BB51F00B64500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748F44AF1C5BB51F00B64500 /* gas simulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gas simulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748F44B31C5BB51F00B64500 /* gas_simulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gas_simulationTests.swift; sourceTree = "<group>"; };
+		748F44B51C5BB51F00B64500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748F44BA1C5BB51F00B64500 /* gas simulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gas simulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748F44BE1C5BB51F00B64500 /* gas_simulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gas_simulationUITests.swift; sourceTree = "<group>"; };
+		748F44C01C5BB51F00B64500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748F44991C5BB51F00B64500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44AC1C5BB51F00B64500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44B71C5BB51F00B64500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		748F44931C5BB51F00B64500 = {
+			isa = PBXGroup;
+			children = (
+				748F449E1C5BB51F00B64500 /* gas simulation */,
+				748F44B21C5BB51F00B64500 /* gas simulationTests */,
+				748F44BD1C5BB51F00B64500 /* gas simulationUITests */,
+				748F449D1C5BB51F00B64500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		748F449D1C5BB51F00B64500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748F449C1C5BB51F00B64500 /* gas simulation.app */,
+				748F44AF1C5BB51F00B64500 /* gas simulationTests.xctest */,
+				748F44BA1C5BB51F00B64500 /* gas simulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748F449E1C5BB51F00B64500 /* gas simulation */ = {
+			isa = PBXGroup;
+			children = (
+				748F449F1C5BB51F00B64500 /* AppDelegate.swift */,
+				748F44A11C5BB51F00B64500 /* GameScene.swift */,
+				748F44A31C5BB51F00B64500 /* GameScene.sks */,
+				748F44A51C5BB51F00B64500 /* Assets.xcassets */,
+				748F44A71C5BB51F00B64500 /* MainMenu.xib */,
+				748F44AA1C5BB51F00B64500 /* Info.plist */,
+			);
+			path = "gas simulation";
+			sourceTree = "<group>";
+		};
+		748F44B21C5BB51F00B64500 /* gas simulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				748F44B31C5BB51F00B64500 /* gas_simulationTests.swift */,
+				748F44B51C5BB51F00B64500 /* Info.plist */,
+			);
+			path = "gas simulationTests";
+			sourceTree = "<group>";
+		};
+		748F44BD1C5BB51F00B64500 /* gas simulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				748F44BE1C5BB51F00B64500 /* gas_simulationUITests.swift */,
+				748F44C01C5BB51F00B64500 /* Info.plist */,
+			);
+			path = "gas simulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748F449B1C5BB51F00B64500 /* gas simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748F44C31C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulation" */;
+			buildPhases = (
+				748F44981C5BB51F00B64500 /* Sources */,
+				748F44991C5BB51F00B64500 /* Frameworks */,
+				748F449A1C5BB51F00B64500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gas simulation";
+			productName = "gas simulation";
+			productReference = 748F449C1C5BB51F00B64500 /* gas simulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		748F44AE1C5BB51F00B64500 /* gas simulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748F44C61C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulationTests" */;
+			buildPhases = (
+				748F44AB1C5BB51F00B64500 /* Sources */,
+				748F44AC1C5BB51F00B64500 /* Frameworks */,
+				748F44AD1C5BB51F00B64500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748F44B11C5BB51F00B64500 /* PBXTargetDependency */,
+			);
+			name = "gas simulationTests";
+			productName = "gas simulationTests";
+			productReference = 748F44AF1C5BB51F00B64500 /* gas simulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		748F44B91C5BB51F00B64500 /* gas simulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748F44C91C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulationUITests" */;
+			buildPhases = (
+				748F44B61C5BB51F00B64500 /* Sources */,
+				748F44B71C5BB51F00B64500 /* Frameworks */,
+				748F44B81C5BB51F00B64500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748F44BC1C5BB51F00B64500 /* PBXTargetDependency */,
+			);
+			name = "gas simulationUITests";
+			productName = "gas simulationUITests";
+			productReference = 748F44BA1C5BB51F00B64500 /* gas simulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748F44941C5BB51F00B64500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sea_software;
+				TargetAttributes = {
+					748F449B1C5BB51F00B64500 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					748F44AE1C5BB51F00B64500 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 748F449B1C5BB51F00B64500;
+					};
+					748F44B91C5BB51F00B64500 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 748F449B1C5BB51F00B64500;
+					};
+				};
+			};
+			buildConfigurationList = 748F44971C5BB51F00B64500 /* Build configuration list for PBXProject "gas simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 748F44931C5BB51F00B64500;
+			productRefGroup = 748F449D1C5BB51F00B64500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748F449B1C5BB51F00B64500 /* gas simulation */,
+				748F44AE1C5BB51F00B64500 /* gas simulationTests */,
+				748F44B91C5BB51F00B64500 /* gas simulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748F449A1C5BB51F00B64500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748F44A61C5BB51F00B64500 /* Assets.xcassets in Resources */,
+				748F44A41C5BB51F00B64500 /* GameScene.sks in Resources */,
+				748F44A91C5BB51F00B64500 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44AD1C5BB51F00B64500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44B81C5BB51F00B64500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748F44981C5BB51F00B64500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748F44A21C5BB51F00B64500 /* GameScene.swift in Sources */,
+				748F44A01C5BB51F00B64500 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44AB1C5BB51F00B64500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748F44B41C5BB51F00B64500 /* gas_simulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748F44B61C5BB51F00B64500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748F44BF1C5BB51F00B64500 /* gas_simulationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		748F44B11C5BB51F00B64500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748F449B1C5BB51F00B64500 /* gas simulation */;
+			targetProxy = 748F44B01C5BB51F00B64500 /* PBXContainerItemProxy */;
+		};
+		748F44BC1C5BB51F00B64500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748F449B1C5BB51F00B64500 /* gas simulation */;
+			targetProxy = 748F44BB1C5BB51F00B64500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		748F44A71C5BB51F00B64500 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748F44A81C5BB51F00B64500 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		748F44C11C5BB51F00B64500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		748F44C21C5BB51F00B64500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		748F44C41C5BB51F00B64500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gas simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		748F44C51C5BB51F00B64500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gas simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		748F44C71C5BB51F00B64500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "gas simulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gas simulation.app/Contents/MacOS/gas simulation";
+			};
+			name = Debug;
+		};
+		748F44C81C5BB51F00B64500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gas simulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gas simulation.app/Contents/MacOS/gas simulation";
+			};
+			name = Release;
+		};
+		748F44CA1C5BB51F00B64500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "gas simulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "gas simulation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		748F44CB1C5BB51F00B64500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gas simulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sea-software.gas-simulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "gas simulation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		748F44971C5BB51F00B64500 /* Build configuration list for PBXProject "gas simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748F44C11C5BB51F00B64500 /* Debug */,
+				748F44C21C5BB51F00B64500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748F44C31C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748F44C41C5BB51F00B64500 /* Debug */,
+				748F44C51C5BB51F00B64500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		748F44C61C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748F44C71C5BB51F00B64500 /* Debug */,
+				748F44C81C5BB51F00B64500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		748F44C91C5BB51F00B64500 /* Build configuration list for PBXNativeTarget "gas simulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748F44CA1C5BB51F00B64500 /* Debug */,
+				748F44CB1C5BB51F00B64500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748F44941C5BB51F00B64500 /* Project object */;
+}
