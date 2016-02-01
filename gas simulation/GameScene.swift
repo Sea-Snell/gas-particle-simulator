@@ -112,7 +112,7 @@ class GameScene: SKScene{
         self.wall?.strokeColor = NSColor.blackColor()
         self.addChild(self.wall!)
         
-        self.slider3 = NSSlider(frame: NSRect(x: self.frame.minX + 10, y: self.frame.maxY - 180, width: 1000, height: 50))
+        self.slider3 = NSSlider(frame: NSRect(x: self.frame.minX + 10, y: self.frame.maxY - 230, width: 1300, height: 50))
         
         self.slider3?.minValue = 1.0
         self.slider3?.maxValue = 200.0
@@ -121,7 +121,7 @@ class GameScene: SKScene{
         
         self.view?.addSubview(self.slider3!)
         
-        self.massTitleLabel = NSTextField(frame: NSRect(x: self.frame.minX + 25, y: self.frame.maxY - 160, width: 200, height: 25))
+        self.massTitleLabel = NSTextField(frame: NSRect(x: self.frame.minX + 25, y: self.frame.maxY - 210, width: 200, height: 25))
         self.massTitleLabel!.editable = false
         self.massTitleLabel!.selectable = false
         self.massTitleLabel!.stringValue = "mass:"
@@ -141,7 +141,7 @@ class GameScene: SKScene{
         
         
         
-        self.slider4 = NSSlider(frame: NSRect(x: self.frame.minX + 10, y: self.frame.maxY - 230, width: 1300, height: 50))
+        self.slider4 = NSSlider(frame: NSRect(x: self.frame.minX + 10, y: self.frame.maxY - 180, width: 1000, height: 50))
         
         self.slider4?.minValue = 1.0
         self.slider4?.maxValue = 150.0
@@ -150,7 +150,7 @@ class GameScene: SKScene{
         self.view?.addSubview(self.slider4!)
         
         
-        self.numParticlesLabel = NSTextField(frame: NSRect(x: self.frame.minX + 25, y: self.frame.maxY - 210, width: 200, height: 25))
+        self.numParticlesLabel = NSTextField(frame: NSRect(x: self.frame.minX + 25, y: self.frame.maxY - 160, width: 200, height: 25))
         self.numParticlesLabel!.editable = false
         self.numParticlesLabel!.selectable = false
         self.numParticlesLabel!.stringValue = "number of particles:"
