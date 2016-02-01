@@ -14,6 +14,7 @@
 		748F44A91C5BB51F00B64500 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F44A71C5BB51F00B64500 /* MainMenu.xib */; };
 		748F44B41C5BB51F00B64500 /* gas_simulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44B31C5BB51F00B64500 /* gas_simulationTests.swift */; };
 		748F44BF1C5BB51F00B64500 /* gas_simulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44BE1C5BB51F00B64500 /* gas_simulationUITests.swift */; };
+		748F44CD1C5BB57300B64500 /* particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F44CC1C5BB57300B64500 /* particle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		748F44BA1C5BB51F00B64500 /* gas simulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gas simulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F44BE1C5BB51F00B64500 /* gas_simulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gas_simulationUITests.swift; sourceTree = "<group>"; };
 		748F44C01C5BB51F00B64500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748F44CC1C5BB57300B64500 /* particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = particle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				748F449F1C5BB51F00B64500 /* AppDelegate.swift */,
 				748F44A11C5BB51F00B64500 /* GameScene.swift */,
+				748F44CC1C5BB57300B64500 /* particle.swift */,
 				748F44A31C5BB51F00B64500 /* GameScene.sks */,
 				748F44A51C5BB51F00B64500 /* Assets.xcassets */,
 				748F44A71C5BB51F00B64500 /* MainMenu.xib */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748F44CD1C5BB57300B64500 /* particle.swift in Sources */,
 				748F44A21C5BB51F00B64500 /* GameScene.swift in Sources */,
 				748F44A01C5BB51F00B64500 /* AppDelegate.swift in Sources */,
 			);
